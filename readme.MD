@@ -11,7 +11,7 @@
 
 git add file name; git commit -m "some-message"; git push -u origin main
 
-**To update all files in a single go"
-git add .; git commit -m "some-message"; git push -u origin main
+**To update all files in a single go**
+git add . ; git commit -m "some-message"; git push -u origin main
 
 
