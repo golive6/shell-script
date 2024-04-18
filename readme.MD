@@ -9,5 +9,5 @@
 
 **naming convention of git repos, should be always in small case with Hyphons(-) and no spaces**
 
-git add . ; git commit -m "some-message"; git push -u origin main
+git add <filename>; git commit -m "some-message"; git push -u origin main
 
