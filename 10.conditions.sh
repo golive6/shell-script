@@ -4,9 +4,9 @@ NUMBER=$1
 
 if [ $NUMBER -lt 40 ] 
 then
-    echo "Given number is greater than 10"
+    echo "Given number is greater than 40"
 else
-    echo "Given number is lesser than 10"
+    echo "Given number is lesser than 40"
 fi
 
 
