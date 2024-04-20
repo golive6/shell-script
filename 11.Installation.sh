@@ -8,9 +8,10 @@ then
     exit 1 #manually exit if there is a error
 else
     echo "You are a SUPER USER."
+fi
 
 
-dnf intall mysqll -y
+dnf install mysqll -y
 
 if  [ $? -ne 0 ] 
 then 
@@ -21,7 +22,7 @@ else
 fi
 
 
-dnf intall git -y
+dnf install git -y
 
 if [ $? -ne 0 ]
 then
