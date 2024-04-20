@@ -5,8 +5,8 @@
 # "read" gives a prompt ro enter a value.
 
 echo "please enter username::"
-read USERNAME
+read -s USERNAME
 echo "please enter password::"
-read PASSWORD
+read -s PASSWORD
 
 echo "USERNAME is:$USERNAME, PASSWORD is:$PASSWORD"
