@@ -31,4 +31,4 @@ else
     echo "Installation of git....SUCCESS"
 fi
 
-echo "all installations are SUCCESSFUL :)"
+echo "all installations are SUCCESSFUL"
