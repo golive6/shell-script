@@ -7,7 +7,7 @@ then
     echo "Please run this script with root access."
     exit 1 #manually exit if there is a error
 else
-    echo "You are a SUPER-USER."
+    echo "You are a SUPER-USER." 
 fi
 
 
