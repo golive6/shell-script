@@ -9,6 +9,7 @@ then
 else
     echo "$2....SUCCESS"
 fi
+
 }
 
 if [$USERID -ne 0] #checking if the USERID is 0 or not, if 0 it is a SUPER-USER, will have access for installation and exit status is 0
@@ -17,7 +18,7 @@ then
     exit 1 #manually exit if there is a error.
 else
     echo "You are a Super User"
-if
+fi
 
 
 dnf install mysql -y #checking if the previous command exit status is 0 or not and if 0 then installation will proceed
