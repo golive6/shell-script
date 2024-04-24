@@ -3,16 +3,17 @@
 USERID=$(id -u)
 
 VALIDATE(){     #function is checking if the installation is SUCCESS or FAILURE.
-if [$1 -ne 0]
+if [ $1 -ne 0 ]
 then 
     echo "$2....FAILURE"
+    exit 1
 else
     echo "$2....SUCCESS"
 fi
 
 }
 
-if [$USERID -ne 0] #checking if the USERID is 0 or not, if 0 it is a SUPER-USER, will have access for installation and exit status is 0
+if [ $USERID -ne 0 ] #checking if the USERID is 0 or not, if 0 it is a SUPER-USER, will have access for installation and exit status is 0
 then
     echo "please run this script root access"
     exit 1 #manually exit if there is a error.
