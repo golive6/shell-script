@@ -21,7 +21,7 @@ else
 fi
 
 
-dnf install mysql -y
+dnf install mysqll -y
 
 if  [ $? -ne 0 ] #checking if the previous command exit status is 0 or not
 then 
@@ -32,14 +32,14 @@ else
 fi
 
 
-dnf install gitt -y
+dnf install docker -y
 
 if [ $? -ne 0 ] #checking if the previous command exit status is 0 or not
 then
-    echo "Installation of git....FAILURE"
+    echo "Installation of docker....FAILURE"
     exit 1
 else
-    echo "Installation of git....SUCCESS"
+    echo "Installation of docker....SUCCESS"
 fi
 
 echo " All installations are SUCCESSFUL :)"
