@@ -21,7 +21,7 @@ else
 fi
 
 
-dnf install mysql -y
+dnf install mysqll -y
 
 if  [ $? -ne 0 ] #checking if the previous command exit status is 0 or not
 then 
